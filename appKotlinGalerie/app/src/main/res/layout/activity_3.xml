@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="24dp"> <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/catreEcran1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="8dp"
+        android:text="Ecran 1"
+        android:padding="12dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/catreEcran2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Ecran 2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/catreEcran4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ecran 4"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewTags"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1.2"
+        android:background="@android:color/darker_gray"
+        android:padding="4dp" />
+
+    <GridView
+        android:id="@+id/gridViewImages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1.8"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="8dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAsociaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asociază Tag cu Imagini"/>
+
+</LinearLayout>

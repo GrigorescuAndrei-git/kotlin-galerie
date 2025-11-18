@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tema4</string>
+    <string name="tag">Adauga un TAG nou</string>
+    <string name="catreEcran2">Ecran 2</string>
+    <string name="catreEcran3">Ecran 3</string>
+    <string name="catreEcran4">Ecran 4</string>
+    <string name="tagNou">Introdu tag nou</string>
+    <string name="Adauga">Adauga</string>
+</resources>
